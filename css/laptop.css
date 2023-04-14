@@ -1,0 +1,366 @@
+@media screen and (min-width: 1024px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  .bg-grey {
+    background: #f7f7f7;
+  }
+
+  .banner {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, 0);
+    color: #f7f7f7;
+  }
+  ul {
+    list-style: none;
+  }
+
+  li::before {
+    content: "•";
+    color: blue;
+    display: inline-block;
+    width: 1em;
+    font: 26px sans-serif;
+    margin-left: -1em;
+  }
+
+  body {
+    max-width: 0 auto;
+    padding: 20px;
+    line-height: 1.4;
+    margin: 0 auto;
+  }
+
+  .anhbanner {
+    height: 100vh;
+    position: relative;
+    filter: brightness(50%);
+    display: block;
+    max-width: 100%;
+  }
+  /*ICON*/
+  .icon {
+    color: rgb(27, 74, 228);
+  }
+  .icon1 {
+    color: rgb(27, 74, 228);
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  .icon2 {
+    margin-right: 66px;
+    font-size: 30px;
+  }
+  .icon3 {
+    border: 1px solid #0026ff;
+    border-radius: 50%;
+    height: 2.8em;
+    width: 2.8em;
+    margin-left: 6px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /*NVA*/
+  nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .nav1,
+  .nav2,
+  .nav4,
+  .nav5 {
+    width: 13%;
+    border-left: 1px solid #eeecec;
+    padding: 20px;
+  }
+
+  .nav3 {
+    width: 20%;
+    padding: 8px;
+    border-left: 1px solid #eeecec;
+    font-size: 10px;
+  }
+  .nav31 {
+    color: rgb(192, 192, 192);
+    font-size: 12px;
+  }
+
+  .nav5 {
+    border-right: 1px solid #eeecec;
+  }
+
+  .muctieuvathongtin {
+    max-width: 100%;
+    display: flex;
+    line-height: 1.4;
+    height: 33%;
+  }
+  #target {
+    background-color: #f3f2f2;
+    width: 50%;
+  }
+  .target-1 {
+    padding: 1em 2em;
+  }
+  #personal-info {
+    background-color: #dad8d8;
+    width: 50%;
+  }
+  .personal-info-1 {
+    padding: 1em 2em;
+  }
+  .target-2 {
+    padding-top: 3%;
+    padding-left: 5%;
+  }
+
+  /*KINH NGHIEM ,HOC VAN ,HOAT DONG ,SO THICH ,NGON NGU ,KY NANG*/
+  .gioithieu {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    justify-content: center;
+    padding-top: 2%;
+    gap: 30px;
+  }
+  .kinhnghiem {
+    margin-top: 20px;
+  }
+  .hocvan {
+    height: 650px;
+  }
+  .hoatdong {
+    height: 650px;
+  }
+  .kinhnghiem,
+  .hocvan,
+  .hoatdong,
+  .sothich,
+  .ngonngu,
+  .kynang {
+    border: 1px solid #ece8e9;
+    text-align: left;
+    padding-left: 10%;
+  }
+  .sothich,
+  .ngonngu,
+  .kynang {
+    height: 20em;
+  }
+  .Experience,
+  .Education,
+  .Work,
+  .Interest,
+  .Language,
+  .Skill {
+    display: flex;
+    padding: 10% 0 10% 0;
+  }
+  .Experience-1,
+  .Education-1,
+  .Work-1,
+  .Interest-1,
+  .Language-1,
+  .Skill-1 {
+    width: 95%;
+  }
+  .Experience-2,
+  .Education-2,
+  .Work-2,
+  .Interest-2,
+  .Language-2,
+  .Skill-2 {
+    width: 5%;
+  }
+  .merge {
+    padding: 0 10%;
+  }
+
+  .i {
+    background-color: blue;
+    color: rgb(252, 252, 252);
+    border-radius: 20px;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+  }
+  .sothich1 {
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .ngonngu2 {
+    display: flex;
+    margin: 10px 0px;
+  }
+  .bl {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  .gr {
+    background: #d4d6d6;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+  }
+  /*CHỨNG CHỈ-GIẢI THƯỞNG*/
+  #certificate {
+    margin-top: 5%;
+  }
+  .AwardCertificate-6 {
+    padding: 4%;
+    padding-left: 13.6%;
+  }
+
+  .AwardCertificate {
+    padding-left: 13%;
+    font-size: 0.9em;
+    line-height: 0.9em;
+  }
+  .AwardCertificate-1 {
+    display: flex;
+    width: 100%;
+  }
+  .AwardCertificate-2 {
+    display: flex;
+    width: 50%;
+    gap: 1.5em;
+  }
+  .AwardCertificate-3 {
+    display: flex;
+    border-left: 1px solid #d6c08d;
+    margin-right: 160px;
+    margin-left: 10px;
+    height: 76px;
+    gap: 1.5em;
+    width: 50%;
+  }
+  .AwardCertificate-4 {
+    display: flex;
+    gap: 1.5em;
+    padding-bottom: 2em;
+  }
+  .anhchungchigiaithuong {
+    max-width: 150px;
+    height: 75px;
+    margin-left: 10px;
+  }
+
+  .gachngang-2 {
+    border-bottom: 1px solid #d6c08d;
+    max-width: 944px;
+    padding: 0 auto;
+    display: block;
+    margin: 2em 0 3em 0.7em;
+  }
+  /*DỰ ÁN*/
+  .project-1 {
+    padding: 4%;
+    padding-left: 13.6%;
+  }
+  table,
+  tr {
+    border: 1px solid rgb(209, 208, 208);
+    display: flex;
+  }
+  table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+  }
+
+  th {
+    font-weight: 400;
+    margin: 1em 0 1em 1.8em;
+  }
+  .anhduan {
+    width: 100%;
+    height: 0 auto;
+    display: block;
+  }
+  .nam2021 {
+    background-color: blue;
+    color: gainsboro;
+    border-radius: 2em;
+    max-width: 3em;
+    text-align: center;
+  }
+
+  .duan {
+    display: flex;
+    margin-left: 11.5em;
+    gap: 20px;
+    text-align: left;
+    max-width: 100%;
+    padding: 0 auto;
+  }
+  .project {
+    width: 27%;
+  }
+  .duan1 {
+    width: 30%;
+  }
+  .duan2 {
+    width: 70%;
+  }
+  .congnghe1 {
+    height: 9em;
+  }
+  .congnghe2 {
+    height: 8em;
+  }
+
+  /*LINK*/
+  #footer {
+    margin-top: 1em;
+    height: 3.5em;
+    max-width: 100%;
+    padding: 0 auto;
+  }
+  .link {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 1em;
+  }
+  .icon4 {
+    color: blue;
+    font-size: 26px;
+  }
+  .link1 {
+    margin: 10px;
+    color: #838282;
+  }
+  .link2 {
+    margin-left: 100px;
+  }
+  /*NANG CAO
+.anhnangcao {
+  max-width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+  top: 93%;
+  border: 10px solid rgb(255, 255, 255);
+  display: block;
+  right: 42.5%;
+}
+*/
+}
